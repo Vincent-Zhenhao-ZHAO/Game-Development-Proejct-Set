@@ -30,7 +30,7 @@ display_surface.fill(WHITE)
 
 # define fonts
 system_font = pygame.font.SysFont('calibri',40)
-custom_font_src = '../Pygame/font/2D_classic.ttf'
+custom_font_src = '../Tutorials/font/2D_classic.ttf'
 custom_font = pygame.font.Font(custom_font_src,32)
 
 # define text
@@ -43,12 +43,12 @@ custom_text_rect = custom_text.get_rect()
 custom_text_rect.center = (WINDOW_WIDTH//2,100)
 
 # create images
-cat_left_img_src = "../Pygame/Icon/Cat-icon-left.png"
+cat_left_img_src = "../Tutorials/Icon/Cat-icon-left.png"
 cat_left_img = pygame.image.load(cat_left_img_src)
 cat_left_rect = cat_left_img.get_rect()
 cat_left_rect.topleft = (0,0)
 
-cat_right_img_src = "../Pygame/Icon/Cat-icon-right.png"
+cat_right_img_src = "../Tutorials/Icon/Cat-icon-right.png"
 cat_right_img = pygame.image.load(cat_right_img_src)
 cat_right_rect = cat_right_img.get_rect()
 cat_right_rect.topright = (WINDOW_WIDTH,0)
